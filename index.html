@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>Get your change back</h1>
+    
+        <label for="bill-input">Bill Amount </label>
+        <input 
+        id="bill-input"
+        type="number"
+        />
+    
+        <label for="paid-input">Amount Paid </label>
+        <input 
+        id="paid-input"
+        type="number"
+        />
+
+        <p id="error-message">Invalid Amount</p>
+        <button id="change-check">Check</button>
+
+        <table class="change-table">
+            <caption>Return Change</caption>
+            <tr>
+                <th>Number of Notes</th>
+                <td class="notes"></td>
+                <td class="notes"></td>
+                <td class="notes"></td>
+                <td class="notes"></td>
+                <td class="notes"></td>
+                <td class="notes"></td>
+                <td class="notes"></td>
+            </tr>
+            <tr>
+                <th>Notes</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

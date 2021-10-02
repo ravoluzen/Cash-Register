@@ -1,0 +1,59 @@
+html{
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    background: url("./dollar.png") repeat;
+    overflow: hidden;
+    color: yellow;
+}
+h1, label, button{
+    background: rgba(36, 126, 36, 0.8);
+    border-radius: 5px;
+    padding: 0.2em;
+}
+
+p{
+    display: none;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+}
+input{
+    height: 2em;
+    width: 25em;
+    border: none;
+    background: rgba(36, 126, 36, 0.8);
+    border-radius: 5px;
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 1em 0 1em 0;
+}
+
+#change-check{
+    padding: 1em;
+    width: 10em;
+    margin: 0 0 1em 0;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.7em;
+    background: rgb(36, 126, 36);
+    color: yellow;
+    cursor: pointer;
+}
+.change-table{
+    background-color: yellow;
+}
+
+th, td{
+    padding: 0.5em;
+    background-color: rgb(102, 197, 83);
+}
